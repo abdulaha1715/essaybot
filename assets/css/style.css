@@ -14,7 +14,10 @@
  *
  * 01. Default css
  * 02. Variables
- * 03. Header
+ * 03. Header-hero
+ * 04. Middle-des
+ * 05. KeywordsList
+ * 06. Footer
  *     
  *     
  *
@@ -57,21 +60,20 @@ img {
     --bebas: "Bebas Neue";
 }
 
-/* 03. Header */
+/* 03. Header-hero */
 .header-hero {
-    background: #ddd;
-    background-position: center;
+    background-image: url(../img/female_student_writing.jpg);
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.header {
-}
+.header {padding: 20px 0;}
 
-.header .row {align-items: baseline;}
+.header .row {align-items: flex-start;}
 
 .site-logo {
-    width: 155px;
+    width: 100px;
 }
 
 .site-logo img {
@@ -88,8 +90,186 @@ img {
     display: inline-block;
     font-size: 18px;
     padding: 0 20px;
+    transition: 0.3s;
+}
+
+.header-nav-menu ul li:hover {
+    background: #24b47e;
 }
 
 .header-nav-menu ul li a {
     color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.hero-content h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.hero-content .search-form {
+    padding: 40px 0 105px;
+}
+
+.search {
+    position: relative;
+    box-shadow: none;
+}
+
+.search input {
+    height: 50px;
+    text-indent: 25px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 0 0 10px;
+    line-height: 0;
+    font-size: 16px;
+}
+
+.search input:focus {
+    box-shadow: none;
+    border: none;
+}
+
+.search .fa-search {
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    color: #ffc0cb;
+    font-size: 16px;
+}
+
+.search button {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    height: 50px;
+    width: 110px;
+    background: #24b47e;
+    border-color: #24b47e;
+    border-radius: 0;
+    transition: 0.3s;
+}
+
+.search button:hover {
+    background: #50c398;
+    border-color: #50c398;
+    color: #fff;
+}
+
+/* 04. Middle-des */
+.middle-des {
+    padding: 110px 0;
+}
+
+.des-content {}
+
+.des-content h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.des-content ul {}
+
+.des-content ul li {
+    list-style: disc;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 12px 5px;
+    font-weight: 400;
+}
+
+.layout_keywordsList {
+    padding: 20px 0;
+}
+
+/* 05. KeywordsList */
+.keywordsList-content {}
+
+.keywordsList-content h3 {
+    color: #26262b;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 31px;
+    margin-bottom: 20px;
+}
+
+.keywordsList-content ul {
+    line-height: 1.6em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.keywordsList-content ul li {
+    width: 30%;
+    text-align: left;
+    font-size: 14px;
+    padding: 5px 0 5px 0;
+    line-height: 1.6em;
+    box-sizing: border-box;
+    margin-right: 5%;
+}
+
+.keywordsList-content ul li:nth-child(3),
+.keywordsList-content ul li:nth-child(6),
+.keywordsList-content ul li:nth-child(9) {
+    margin-right: 0 !important;
+}
+
+.keywordsList-content ul li a {
+    font-size: 14px;
+    color: #222;
+}
+
+.keywordsList-content ul li a:hover {
+    text-decoration: underline;
+}
+
+span.load-more {
+    display: block;
+    padding: 15px 0;
+    color: #090dd3;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+ul.load-more-items {
+    display: none;
+    transition: 0.3s;
+}
+
+ul.load-more-items.block {
+    display: flex;
+}
+
+/* 06. Footer */
+footer {
+    background: #000;
+    padding: 20px 0;
+}
+
+.footer-menu ul {}
+
+.footer-menu ul li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.footer-menu ul li a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.footer-menu ul li a:hover {
+    text-decoration: underline;
 }
