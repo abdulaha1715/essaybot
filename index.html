@@ -155,7 +155,7 @@
                     <div class="modal-footer">
                         <a class="forget">Forgot your username or password?</a>
                         <div>
-                            <button type="button" class="signup-btn">
+                            <button type="button" data-bs-toggle="modal" data-bs-target="#signupmodal" class="signup-btn">
                                 <span>Sign Up</span>
                             </button>
                         </div>
@@ -181,6 +181,7 @@
                         </form>
                     </div>
 
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
             </div>
         </div>
@@ -192,10 +193,36 @@
 
                     <!-- Modal Header -->
                     <div class="modal-header">
-                        <h4 class="modal-title">Modal Heading</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        <img src="assets/img/model-logo.png" alt="">
                     </div>
 
+                    <div class="login-form">
+                        <h3>Login</h3>
+                        <form>
+                            <div class="mb-3">
+                                <input type="email" placeholder="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <input type="password" placeholder="Password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">Signup</button>
+                        </form>
+                    </div>
+
+                    <div class="modal-footer">
+                        <div>
+                            <button type="button" data-bs-toggle="modal" data-bs-target="#loginmodal" class="signup-btn">
+                                <span>Login</span>
+                            </button>
+                        </div>
+                        <div>
+                            <button type="footer" class="facebook-btn">
+                            Signup With Facebook</button>
+                        </div>
+                    </div>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
             </div>
         </div>

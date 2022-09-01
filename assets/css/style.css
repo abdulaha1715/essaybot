@@ -397,3 +397,9 @@ button.facebook-btn {
     padding-bottom: 30px;
 }
 
+button.btn-close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
