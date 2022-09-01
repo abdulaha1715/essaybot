@@ -44,8 +44,8 @@
                         <div class="col-lg-9">
                             <div class="header-nav-menu">
                                 <ul class="main-menu">
-                                    <li><a href="#">Member Login</a></li>
-                                    <li><a href="#">Sign Up</a></li>
+                                    <li><a href="#" data-bs-toggle="modal" data-bs-target="#loginmodal">Member Login</a></li>
+                                    <li><a href="#" data-bs-toggle="modal" data-bs-target="#signupmodal">Sign Up</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -126,6 +126,79 @@
             </div>
         </div>
         <!-- End layout_keywordsList Section -->
+
+
+        <!-- The Login Modal -->
+        <div class="modal fade" id="loginmodal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <img src="assets/img/model-logo.png" alt="">
+                    </div>
+
+                    <div class="login-form">
+                        <h3>Login</h3>
+                        <form>
+                            <div class="mb-3">
+                                <input type="email" placeholder="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <input type="password" placeholder="Password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">Login</button>
+                        </form>
+                    </div>
+
+                    <div class="modal-footer">
+                        <a class="forget">Forgot your username or password?</a>
+                        <div>
+                            <button type="button" class="signup-btn">
+                                <span>Sign Up</span>
+                            </button>
+                        </div>
+                        <div>
+                            <button type="footer" class="facebook-btn">
+                            Login With Facebook</button>
+                        </div>
+                    </div>
+
+                    <div class="forget-pass">
+                        <h3>Please enter email</h3>
+                        <form>
+                            <div class="mb-3">
+                                <div class="send-btn-e">
+                                    <input type="email" placeholder="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    <button type="submit" class="btn">Send</button>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <input type="password" placeholder="Verification Code" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Continue</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- The Signup Modal -->
+        <div class="modal fade" id="signupmodal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Modal Heading</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
 
 
         <!-- Start footer Section -->

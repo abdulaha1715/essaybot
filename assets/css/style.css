@@ -273,3 +273,127 @@ footer {
 .footer-menu ul li a:hover {
     text-decoration: underline;
 }
+
+/* 07. Model */
+
+.modal-content {
+    width: 80%;
+    margin-left: 10%;
+    padding: 0px 20px 20px 20px;
+    border-radius: 5px;
+}
+
+.modal-header {
+    background: #24b47e;
+    margin: 0px 40px 20px 40px;
+    border-radius: 0;
+}
+
+.login-form {}
+
+.forget-pass h3,
+.login-form h3 {
+    font-size: 18px;
+    line-height: 24px;
+    color: #606266;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.forget-pass .form-control,
+.login-form .form-control {
+    margin-bottom: 20px;
+}
+
+.forget-pass .form-control:focus,
+.login-form .form-control:focus {
+    box-shadow: none;
+    border: 1px solid #24b47e;
+}
+
+.forget-pass button.btn.btn-primary,
+.login-form button.btn.btn-primary {
+    background: #24b47e;
+    border-color: #24b47e;
+    display: block;
+    width: 100%;
+}
+
+
+button.facebook-btn:hover,
+.forget-pass  button.btn.btn-primary:hover,
+.login-form button.btn.btn-primary:hover {
+    background: #50c398;
+    border-color: #50c398;
+}
+
+a.forget {
+    color: #0085bf;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+    display: block;
+    padding: 8px 0;
+    cursor: pointer;
+}
+
+.modal-footer {
+    display: block;
+    padding: 0;
+}
+
+button.signup-btn {
+    display: block;
+    width: 100%;
+    color: #fff;
+    margin-bottom: 6px;
+    padding: 6px 20px;
+    border-radius: 5px;
+}
+
+
+button.facebook-btn,
+button.signup-btn {
+    display: block;
+    width: 100%;
+    border: 1px solid #000;
+    background: #000;
+    color: #fff;
+    margin-bottom: 6px;
+    padding: 6px 20px;
+    border-radius: 5px;
+}
+
+button.facebook-btn {
+    background: #24b47e;
+    border-color: #24b47e;
+}
+
+.send-btn-e {
+    position: relative;
+}
+
+.send-btn-e button.btn {
+    color: #909399;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 14px;
+    background: #f5f7fa;
+    text-transform: lowercase;
+    padding: 6px 16px 7px;
+    border-left: 1px solid #dcdfe6;
+}
+
+.forget-pass {
+    display: none;
+}
+
+.forget-pass.d-block {
+    display: block !important;
+    padding-bottom: 30px;
+}
+
