@@ -32,43 +32,117 @@
     <body>
 
 
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <div class="site-logo">
+                            <img src="assets/img/model-logo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-10">
+                        <div class="green-menu">
+                            <ul class="header-menu">
+                                <li><a href="#" >My Account <i class="fa fa-angle-down"></i></a>
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-cog"></i>Settings</a></li>
+                                        <li><a href="#"><i class="fa fa-phone"></i>Contact Us</a></li>
+                                        <li><a href="#"><i class="fa fa-sign-out"></i>Log Out</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
         <!-- Start account tab Section -->
         <div class="account-tab-section">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-10 offset-lg-1">
+                    <div class="col-lg-12">
                         <div class="account-tabs">
-                            <div class="m-4">
-                                <ul class="nav nav-tabs" id="myTab">
-                                    <li class="nav-item">
-                                        <a href="#account" class="nav-link active" data-bs-toggle="tab">Account</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#password" class="nav-link" data-bs-toggle="tab">Password</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#payment" class="nav-link" data-bs-toggle="tab">Payment</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#credit" class="nav-link" data-bs-toggle="tab">Credit</a>
-                                    </li>
-                                </ul>
-                                <div class="tab-content">
-                                    <div class="tab-pane fade show active" id="account">
-                                        <h4 class="mt-2">Home tab content</h4>
-                                        <p>Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui. Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth.</p>
+                            <ul class="nav nav-tabs" id="myTab">
+                                <li class="nav-item">
+                                    <a href="#account" class="nav-link active" data-bs-toggle="tab">Account</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#password" class="nav-link" data-bs-toggle="tab">Password</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#payment" class="nav-link" data-bs-toggle="tab">Payment</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#credit" class="nav-link" data-bs-toggle="tab">Credit</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane fade show active" id="account">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="username">Username</label>
+                                            <input type="" class="form-control" id="username" placeholder="name">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="email"><span>*</span>Email</label>
+                                            <input type="email" class="form-control" id="email" placeholder="Email">
+                                        </div>
+                                        
+                                        <button type="submit" class="btn btn-primary">Save</button>
+                                    </form>
+                                </div>
+                                <div class="tab-pane fade" id="password">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="username"><span>*</span>Original password</label>
+                                            <input type="" class="form-control" id="username" placeholder="original password">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="email"><span>*</span>New password</label>
+                                            <input type="email" class="form-control" id="email" placeholder="new password">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="email"><span>*</span>Confirm password</label>
+                                            <input type="email" class="form-control" id="email" placeholder="confirm password">
+                                        </div>
+                                        
+                                        <button type="submit" class="btn btn-primary">Update</button>
+                                    </form>
+                                </div>
+                                <div class="tab-pane fade" id="payment">
+                                    <div class="payment-content">
+                                        <div class="sub-content">
+                                            <h4>Subscription includes:</h4>
+                                            <ul>
+                                                <li>Content suggestion based on your title and writing</li>
+                                                <li>Smart Paraphrasing</li>
+                                                <li>Finding citations matching each paragraph</li>
+                                                <li>Autocompletion of your sentences</li>
+                                                <li>Spelling and grammar check</li>
+                                            </ul>
+
+                                            <button type="button" class="btn btn-primary pay-button">Pay Now</button>
+                                        </div>
+                                        <div class="compare-content">
+                                            <h4>Compare with other popular academic products:</h4>
+                                            <ul>
+                                                <li>Chegg Study (Homework Solutions): $14.95/month</li>
+                                                <li>Citation Machine Plus: $9.95/month</li>
+                                                <li>Mathway (Math Solver): $19.99/month</li>
+                                                <li>Grammarly Premium: $29.95/month</li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                    <div class="tab-pane fade" id="password">
-                                        <h4 class="mt-2">Profile tab content</h4>
-                                        <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
-                                    </div>
-                                    <div class="tab-pane fade" id="payment">
-                                        <h4 class="mt-2">Messages tab content</h4>
-                                        <p>Donec vel placerat quam, ut euismod risus. Sed a mi suscipit, elementum sem a, hendrerit velit. Donec at erat magna. Sed dignissim orci nec eleifend egestas. Donec eget mi consequat massa vestibulum laoreet. Mauris et ultrices nulla, malesuada volutpat ante. Fusce ut orci lorem. Donec molestie libero in tempus imperdiet. Cum sociis natoque penatibus et magnis.</p>
-                                    </div>
-                                    <div class="tab-pane fade" id="credit">
-                                        <h4 class="mt-2">Messages tab content</h4>
-                                        <p>Donec vel placerat quam, ut euismod risus. Sed a mi suscipit, elementum sem a, hendrerit velit. Donec at erat magna. Sed dignissim orci nec eleifend egestas. Donec eget mi consequat massa vestibulum laoreet. Mauris et ultrices nulla, malesuada volutpat ante. Fusce ut orci lorem. Donec molestie libero in tempus imperdiet. Cum sociis natoque penatibus et magnis.</p>
+                                </div>
+                                <div class="tab-pane fade" id="credit">
+                                    <div class="credit-content">
+                                        <p class="credit-title">Credit from Referral:</p>
+                                        <p class="credit-price">$0.00</p>
                                     </div>
                                 </div>
                             </div>

@@ -68,9 +68,13 @@ img {
     background-size: cover;
 }
 
-.header {padding: 20px 0;}
+.header {
+    padding: 20px 0;
+}
 
-.header .row {align-items: flex-start;}
+.header .row {
+    align-items: flex-start;
+}
 
 .site-logo {
     width: 100px;
@@ -322,7 +326,7 @@ footer {
 
 
 button.facebook-btn:hover,
-.forget-pass  button.btn.btn-primary:hover,
+.forget-pass button.btn.btn-primary:hover,
 .login-form button.btn.btn-primary:hover {
     background: #50c398;
     border-color: #50c398;
@@ -424,7 +428,7 @@ button.btn-close {
 
 .add-box {
     min-height: 320px;
-    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%), inset 0 -1px 0 rgb(0 0 0 / 15%);
+    box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);
     margin-bottom: 30px;
     border-radius: 5px !important;
     position: relative;
@@ -470,9 +474,9 @@ button.btn-close {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,.6);
-    opacity: 0; 
-    visibility: hidden; 
+    background: rgba(0, 0, 0, .6);
+    opacity: 0;
+    visibility: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -482,8 +486,8 @@ button.btn-close {
 
 
 .add-box:hover .add-box-overlay {
-    opacity: 1; 
-    visibility: visible; 
+    opacity: 1;
+    visibility: visible;
 }
 
 a.ess-btn {
@@ -517,5 +521,234 @@ a.ess-btn.edit {
 
 a.ess-btn.delete {
     padding: 7px 0 !important;
+}
+
+.account-tabs {
+    padding: 30px 0;
+}
+
+a.nav-link.active {}
+
+a.nav-link {
+    color: #303133;
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 0 !important;
+    transition: 0.3s;
+    /* border: 1px solid #dee2e6 !important; */
+}
+
+a.nav-link.active,
+a.nav-link:hover {
+    color: #24b47e !important;
+}
+
+.nav.nav-tabs {
+    margin-bottom: 25px !important;
+}
+
+li.nav-item {
+    border: 1px solid #dee2e6;
+    border-bottom: none;
+    border-right: none;
+}
+
+li.nav-item:last-child {
+    border-right: 1px solid #dee2e6;
+}
+
+.nav-tabs .nav-link {
+    border: none;
+}
+
+.tab-pane.active.show {
+    margin-top: 30px !important;
+}
+
+.tab-content .form-group {
+    display: flex !important;
+    margin-bottom: 20px;
+}
+
+#account .form-group label {
+    width: 10%;
+}
+
+
+label {
+    color: #606266;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+label span {
+    color: #ff0000;
+    display: inline-block;
+    padding-right: 2px;
+}
+
+.tab-content .form-group .form-control {
+    width: 50%;
+    border: 1px solid #dcdfe6;
+    font-size: 13px;
+}
+
+.form-control:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+button.pay-button,
+button.btn.btn-primary {
+    background: #24b47e;
+    border-color: #24b47e;
+    padding: 8px 20px;
+}
+
+#account button.btn.btn-primary {
+    margin-left: 10%;
+}
+
+button.btn.btn-primary:hover {
+    background: #50c398;
+    border-color: #50c398;
+}
+
+#password {}
+
+#password label {
+    width: 15%;
+}
+
+#password button.btn.btn-primary {
+    margin-left: 15%;
+}
+
+p.credit-title {
+    font-size: 19px;
+    font-weight: 400;
+    color: #555555;
+}
+
+p.credit-price {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.payment-content {
+    display: flex;
+}
+
+.payment-content h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.payment-content ul {
+    margin-left: 20px;
+}
+
+.payment-content ul li {
+    font-size: 16px;
+    line-height: 24px;
+    list-style: disc;
+}
+
+.sub-content {
+    width: 45%;
+    margin-right: 10%;
+}
+
+button.pay-button {
+    margin-top: 25px;
+}
+
+.compare-content {
+    position: relative;
+}
+
+.compare-content:before {
+    position: absolute;
+    content: "";
+    height: 70%;
+    width: 1px;
+    background: #ddd;
+    top: 0;
+    left: -15%;
+}
+
+header {
+    background: #24b47e;
+}
+
+header .site-logo {
+    width: 150px;
+}
+
+.green-menu {
+    text-align: right;
+}
+
+ul.header-menu {
+}
+
+ul.header-menu li {
+    position: relative;
+}
+
+ul.header-menu li ul {
+    position: absolute;
+    background: #fff;
+    border-radius: 5px;
+    text-align: left;
+    top: calc(100% + 5px);
+    right: 9px;
+    width: 120px;
+    box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+ul.header-menu li:hover ul {
+    opacity: 1;
+    visibility: visible;
+}
+
+ul.header-menu li ul li {
+
+}
+
+ul.header-menu li ul li a {
+    color: #222;
+    font-size: 13px;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+ul.header-menu li ul li a i {
+    display: inline-block;
+    padding-right: 9px;
+    font-size: 13px;
+}
+
+ul.header-menu li a {
+    color: #fff;
+    padding: 8px 18px;
+}
+
+header .row {
+    align-items: baseline;
+}
+
+ul.header-menu li ul li:hover {
+    background: #e9f8f2;
+}
+
+ul.header-menu li ul li:first-child:hover {
+    border-radius: 5px 5px 0 0;
 }
 
