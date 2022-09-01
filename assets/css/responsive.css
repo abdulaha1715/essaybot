@@ -21,18 +21,32 @@
  */
 
 /* 01. X-Large devices (large desktops, less than 1400px) */
-@media screen and (max-width: 1399.98px) {
-
-}
+@media screen and (max-width: 1399.98px) {}
 
 /* 02. Large devices (desktops, less than 1200px) */
-@media screen and (max-width: 1199.98px) {
-
-}
+@media screen and (max-width: 1199.98px) {}
 
 /* 03. Medium devices (tablets, less than 992px) */
 @media screen and (max-width: 991.98px) {
+    #account .form-group label {
+        width: 12%;
+    }
 
+    #account button.btn.btn-primary {
+        margin-left: 12%;
+    }
+
+    .tab-content .form-group .form-control {
+        width: 70%;
+    }
+
+    #password label {
+        width: 22%;
+    }
+
+    #password button.btn.btn-primary {
+        margin-left: 22%;
+    }
 }
 
 /* 04. Small devices (landscape phones, less than 768px)  */
@@ -50,11 +64,62 @@
         padding: 10px 12px;
     }
 
+    #account .form-group label {
+        width: 18%;
+    }
+
+    #account button.btn.btn-primary {
+        margin-left: 18%;
+    }
+
+    #password label {
+        width: 32%;
+    }
+
+    #password button.btn.btn-primary {
+        margin-left: 32%;
+    }
+
+    .payment-content {
+        display: block;
+    }
+
+    .compare-content:before {
+        content: none;
+    }
+
+    .sub-content {
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .compare-content {
+        margin-top: 40px;
+    }
 }
 
 /* 05. X-Small devices (portrait phones, less than 576px) */
 @media only screen and (max-width: 575px) {
     .keywordsList-content ul li {
+        width: 100%;
+    }
+
+    .tab-content .form-group {
+        display: block !important;
+        margin-bottom: 10px;
+    }
+
+    #password button.btn.btn-primary,
+    #account button.btn.btn-primary {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .tab-content .form-group .form-control {
+        width: 90%;
+    }
+
+    #password label {
         width: 100%;
     }
 }
