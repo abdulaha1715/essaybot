@@ -14,9 +14,9 @@
         });
 
         jQuery(".forget").click(function(){
-            jQuery(".login-form").toggleClass("d-none");
-            jQuery(".modal-footer").toggleClass("d-none");
-            jQuery(".forget-pass").toggleClass("d-block");
+            jQuery(".login-login").toggleClass("d-none");
+            jQuery(".login-login-mf").toggleClass("d-none");
+            jQuery(".login-login-fp").toggleClass("d-block");
         });
 
     });
