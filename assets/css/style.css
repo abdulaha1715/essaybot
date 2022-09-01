@@ -403,3 +403,53 @@ button.btn-close {
     right: 5px;
 }
 
+/* 8.Add boxs */
+.add-box-section {
+    padding: 40px 80px;
+}
+
+.add-icon-box {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.add-box {
+    min-height: 280px;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%), inset 0 -1px 0 rgb(0 0 0 / 15%);
+    margin-bottom: 30px;
+    border-radius: 5px !important;
+}
+
+.add-icon-box i {
+    font-size: 32px;
+    color: #ddd;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content-top {
+    background: #0085BE;
+    padding: 30px 0;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+
+.content-top i {
+    color: #fff;
+    font-size: 24px;
+}
+
+.content-top h4 {
+    font-size: 22px;
+    color: #fff;
+}
+
+.content-bottom {
+    padding: 15px 25px 30px;
+}
+
+.content-bottom p {}
+
