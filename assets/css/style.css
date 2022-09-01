@@ -18,6 +18,10 @@
  * 04. Middle-des
  * 05. KeywordsList
  * 06. Footer
+ * 07. Model
+ * 8. Add boxs
+ * 9. Account-tab 
+ * 10. Login Header
  *     
  *     
  *
@@ -415,7 +419,7 @@ button.btn-close {
     right: 5px;
 }
 
-/* 8.Add boxs */
+/* 8. Add boxs */
 .add-box-section {
     padding: 40px 80px;
 }
@@ -468,6 +472,7 @@ button.btn-close {
     font-size: 14px;
 }
 
+/* 9. Account-tab */
 .add-box-overlay {
     position: absolute;
     top: 0;
@@ -483,7 +488,6 @@ button.btn-close {
     transition: 0.4s;
     cursor: pointer;
 }
-
 
 .add-box:hover .add-box-overlay {
     opacity: 1;
@@ -575,7 +579,6 @@ li.nav-item:last-child {
 #account .form-group label {
     width: 10%;
 }
-
 
 label {
     color: #606266;
@@ -680,8 +683,10 @@ button.pay-button {
     left: -15%;
 }
 
+/* 10.Login Header */
 header {
     background: #24b47e;
+    padding: 5px 0;
 }
 
 header .site-logo {
@@ -711,6 +716,7 @@ ul.header-menu li ul {
     opacity: 0;
     visibility: hidden;
     transition: 0.3s;
+    z-index: 9;
 }
 
 ul.header-menu li:hover ul {
