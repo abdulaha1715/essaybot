@@ -65,7 +65,7 @@ img {
 }
 
 /* 03. Header-hero */
-.header-hero {
+.home.header-hero {
     background-image: url(../img/female_student_writing.jpg);
     background-position: top;
     background-repeat: no-repeat;
@@ -92,6 +92,58 @@ img {
     justify-content: end;
 }
 
+nav.navbar {
+    padding: 15px 0;
+    transition: 0.5s;
+}
+
+nav.navbar.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background: #fff;
+    padding: 0 0;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+nav.navbar.fixed ul li a {
+    color: #222;
+    font-size: 15px;
+}
+
+div#offcanvasmenu {
+    width: 240px;
+    padding-top: 3.75rem;
+    display: none;
+}
+
+button.btn-close.text-reset {
+    margin: 20px 10px 0 0;
+}
+
+div#offcanvasmenu li {
+    padding-left: 14px;
+    border: none;
+}
+
+div#offcanvasmenu li a {
+    padding: 8px 18px;
+}
+
+a.btn.btn-primary.offcanvasmenu {
+    background: transparent;
+    border: none;
+    font-size: 22px;
+    display: none;
+}
+
+a.btn.btn-primary.offcanvasmenu:focus {
+    box-shadow: none;
+}
+
 .header-nav-menu ul {}
 
 .header-nav-menu ul li {
@@ -116,8 +168,11 @@ img {
     background: #24b47e;
 }
 
-.header-nav-menu ul li a {
+.home .header-nav-menu ul li a {
     color: #fff;
+}
+
+.header-nav-menu ul li a {
     font-size: 18px;
     line-height: 28px;
     font-weight: 400;
@@ -555,18 +610,19 @@ a.nav-link {
     color: #303133;
     font-size: 14px;
     line-height: 27px;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: uppercase;
     border-radius: 0 !important;
     transition: 0.3s;
     /* border: 1px solid #dee2e6 !important; */
 }
 
-a.nav-link.active, a.nav-link:hover {
+a.nav-link.active,
+a.nav-link:hover {
     color: #24b47e;
 }
 
-.login-menu a.nav-link.active, 
+.login-menu a.nav-link.active,
 .login-menu a.nav-link:hover {
     color: #fff;
 }
@@ -722,8 +778,7 @@ header .site-logo {
     text-align: right;
 }
 
-ul.header-menu {
-}
+ul.header-menu {}
 
 ul.header-menu li {
     position: relative;
@@ -748,7 +803,7 @@ ul li ul {
     text-transform: capitalize;
 }
 
-.login-menu > li > a:hover {
+.login-menu>li>a:hover {
     color: #fff;
 }
 
@@ -758,12 +813,16 @@ ul li:hover ul {
 }
 
 ul li ul li {
-    width: 130px;
+    width: 135px;
     padding: 0 10px 3px;
     display: block !important;
 }
 
-ulli ul li a {
+.fixed ul li ul li {
+    width: 130px;
+}
+
+ul li ul li a {
     color: #222;
     font-size: 13px;
     display: inline-block;
@@ -777,7 +836,7 @@ ul li ul li a i {
 }
 
 ul li a {
-    color: #fff;
+    color: #222;
     padding: 8px 18px;
 }
 

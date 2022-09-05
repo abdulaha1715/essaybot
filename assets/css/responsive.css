@@ -28,6 +28,14 @@
 
 /* 03. Medium devices (tablets, less than 992px) */
 @media screen and (max-width: 991.98px) {
+    a.btn.btn-primary.offcanvasmenu {
+        display: block;
+    }
+
+    div#offcanvasmenu {
+        display: block;
+    }
+
     #account .form-group label {
         width: 12%;
     }
@@ -51,13 +59,19 @@
 
 /* 04. Small devices (landscape phones, less than 768px)  */
 @media screen and (max-width: 767.98px) {
+    nav.navbar {
+        padding: 5px 0;
+    }
+
     ul li ul {
         right: unset;
         left: 20px;
     }
+
     nav.navbar-light {
-        background: rgba(var(--bs-light-rgb), .6)!important;
+        background: rgba(var(--bs-light-rgb), .6) !important;
     }
+
     .hero-content h2 {
         font-size: 28px;
         line-height: 38px;
