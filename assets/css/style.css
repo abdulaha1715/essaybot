@@ -881,6 +881,7 @@ li ul li:hover a {
 .breadcrumb h2 {
     font-size: 2.5rem;
     line-height: 50px;
+    font-weight: 500;
 }
 
 .privacy-policy {
@@ -905,7 +906,7 @@ li ul li:hover a {
 }
 
 .privacy-policy li.nav-item,
-.privacy-policy li.nav-item:last-child  {
+.privacy-policy li.nav-item:last-child {
     border: none;
 }
 
@@ -938,7 +939,7 @@ li ul li:hover a {
 }
 
 .privacy-policy li.nav-item,
-.privacy-policy li.nav-item:last-child  {
+.privacy-policy li.nav-item:last-child {
     border: none;
     list-style: none;
 }
@@ -1020,4 +1021,174 @@ ol li li:before {
     content: counters(item, ".") " ";
 }
 
+.pricing {
+    padding: 100px 0;
+}
 
+.section-header h3 {
+    font-size: 0.875rem;
+    line-height: 1rem;
+    text-transform: uppercase;
+    font-family: 'sf_ui_textsemibold', Helvetica, Arial, sans-serif;
+    color: #4A5562;
+    margin-top: 0;
+    font-weight: 700;
+}
+
+.section-header h2 {
+    font-size: 2.5rem;
+    line-height: 2.9375rem;
+    font-family: 'sf_ui_textlight', Helvetica, Arial, sans-serif;
+    color: #000000;
+    margin: 1.3125rem 0 0 0;
+    font-weight: 500;
+}
+
+.plan-box {
+    margin-top: 3rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-clip: padding-box;
+    padding: 3.25rem 2.75rem;
+}
+
+.plan-box__title {
+    color: #4A5562;
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'sf_ui_textbold', Helvetica, Arial, sans-serif;
+}
+
+.plan-box__pricing {
+    font-size: 3.75rem;
+    margin-bottom: 3.1875rem;
+    font-family: 'sf_ui_textlight', Helvetica, Arial, sans-serif;
+    color: #000;
+    margin-top: 0.8125rem;
+}
+
+.plan-box__pricing>span {
+    margin-right: -15px;
+}
+
+.plan-box__mnth {
+    color: #777777;
+    display: block;
+    content: 'per month';
+    font-size: 16px;
+    font-family: 'sf_ui_textregular';
+    margin-top: 0.375rem;
+    line-height: 1.5rem;
+}
+
+.plan-box__list {
+    padding-left: 0;
+    list-style: none;
+    text-align: left;
+}
+
+.plan-box__list li:first-child {
+    border: none;
+}
+
+.plan-box__list li {
+    font-size: 14px;
+    padding: 0.625rem 0;
+    border-top: 1px solid #ddd;
+}
+
+.link:hover,
+.link:active,
+.link:focus,
+.link:visited {
+    color: #03CD64;
+    text-decoration: underline;
+}
+
+.plan-box .pv-cta__btn {
+    padding: 1.0625rem 3.5rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+.btn--green:hover,
+.btn--green:active,
+.btn--green:focus,
+.btn--green:visited {
+    background: #03CD64 !important;
+    color: #ffffff !important;
+}
+
+.btn--green {
+    background: #03CD64;
+    color: #ffffff;
+}
+
+a.link {
+    padding-left: 0;
+}
+
+.pv-cnt--separator {
+    margin-top: 6.25rem;
+    padding-top: 6.25rem;
+    border-top: 1px solid #ddd;
+}
+
+.section-header h3 {
+    font-size: 0.875rem;
+    line-height: 1rem;
+    text-transform: uppercase;
+    font-family: 'sf_ui_textsemibold', Helvetica, Arial, sans-serif;
+    color: #4A5562;
+    margin-top: 0;
+}
+
+div#accordionExample {
+    padding: 65px 0 25px;
+}
+
+button.accordion-button {
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000 !important;
+    background: none !important;
+    border: none !important;
+}
+
+.accordion-item {
+    border: none;
+}
+
+.accordion-body {
+    text-align: left;
+    color: #333;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 15px;
+}
+
+button.accordion-button {
+    padding-left: 35px;
+}
+
+button.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button::after {
+    position: absolute;
+    width: 20px;
+    left: 8px;
+}
+
+.collapse.show {
+    border-top: 1px solid #ddd !important;
+}
+
+.accordion-body a {
+    color: #03cd64;
+}
+.accordion-body a.btn.btn--green {
+    color: #fff;
+}

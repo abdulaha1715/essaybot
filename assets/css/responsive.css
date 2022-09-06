@@ -28,9 +28,32 @@
 
 /* 03. Medium devices (tablets, less than 992px) */
 @media screen and (max-width: 991.98px) {
+    .pricing {
+    padding: 70px 0;
+}
+.plan-box {
+    padding: 2.25rem 1.75rem;
+}
+.pv-cnt--separator {
+    margin-top: 3.25rem;
+    padding-top: 3.25rem;
+}
+div#accordionExample {
+    padding: 30px 0 25px;
+}
+    .plan-box .pv-cta__btn {
+        padding: 1.0625rem 2.5rem;
+    }
+
+    .section-header h2 {
+        font-size: 1.5rem;
+        line-height: 2.375rem;
+    }
+
     .breadcrumb {
         padding: 70px 0;
     }
+
     .breadcrumb h2 {
         font-size: 1.5rem;
         line-height: 50px;
