@@ -1189,6 +1189,96 @@ button.accordion-button:focus {
 .accordion-body a {
     color: #03cd64;
 }
+
 .accordion-body a.btn.btn--green {
     color: #fff;
+}
+
+.article-create {}
+
+.head-btn {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 20px;
+}
+
+a.btn.change-title,
+a.btn.w-count {
+    color: #fff;
+    background-color: #24b47e;
+    border-color: #24b47e;
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid transparent;
+    text-align: center;
+    transition: .3s;
+    font-weight: 500;
+    padding: 6px 14px;
+    font-size: 14px;
+    border-radius: 4px;
+    text-transform: capitalize;
+}
+
+a.btn.change-title:focus,
+a.btn.change-title:hover,
+a.btn.w-count:focus,
+a.btn.w-count:hover {
+    background: #50c398;
+    border-color: #50c398;
+    color: #fff;
+}
+
+.article-tabs {
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 12%), 0 0 6px 0 rgb(0 0 0 / 4%);
+}
+
+ul#myTab {}
+
+.article-tabs ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.article-tabs ul li {
+    width: 50%;
+    border: none;
+}
+
+.article-tabs ul li a {
+    font-size: 12px;
+    text-align: center;
+    border: none;
+}
+
+.article-tabs ul li a.nav-link.active {
+    color: #24b47e;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: capitalize;
+    background: #ffffff !important;
+}
+
+.article-tabs ul li a {
+    color: #909399;
+    font-weight: 700;
+    background: #F5F7FA !important;
+}
+
+.article-tabs .tab-content {
+    padding: 0 20px 20px;
+    margin-top: -8px;
+}
+
+span.title {
+    font-size: 24px;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.article-tabs .tab-content span {
+    font-size: 13px;
+    line-height: 18px;
+    display: inline-block;
 }
