@@ -860,3 +860,164 @@ li ul li a {
 li ul li:hover a {
     color: #50c398 !important;
 }
+
+
+/*  */
+.breadcrumb {
+    margin: 0;
+    color: #fff;
+    padding: 90px 0;
+    background-image: url(../img/breadcrumb-bg.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.breadcrumb span {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.breadcrumb h2 {
+    font-size: 2.5rem;
+    line-height: 50px;
+}
+
+.privacy-policy {
+    padding: 50px 0 100px;
+}
+
+.privacy-policy .nav.nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.privacy-policy a.nav-link {
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 28px;
+    border-bottom: 2px solid transparent !important;
+}
+
+.privacy-policy a.nav-link.active {
+    border: none !important;
+    color: #03CD64;
+    border-bottom: 2px solid #03CD64 !important;
+}
+
+.privacy-policy li.nav-item,
+.privacy-policy li.nav-item:last-child  {
+    border: none;
+}
+
+.breadcrumb span {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.privacy-policy {
+    padding: 50px 0 100px;
+}
+
+.privacy-policy .nav.nav-tabs {
+    margin: 0;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.privacy-policy a.nav-link {
+    color: #333333;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 28px;
+    border-bottom: 2px solid transparent !important;
+}
+
+.privacy-policy a.nav-link.active {
+    border: none !important;
+    color: #03CD64;
+    border-bottom: 2px solid #03CD64 !important;
+}
+
+.privacy-policy li.nav-item,
+.privacy-policy li.nav-item:last-child  {
+    border: none;
+    list-style: none;
+}
+
+.contact-info {}
+
+.contact-info h5.contact-info__title {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    border-bottom: 1px solid #ddd;
+    padding: 13px 0 13px 0;
+}
+
+.contact-info h2.contact-info__company {
+    font-size: 1.125rem;
+}
+
+.contact-info address {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.privacy-policy h4 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 19px;
+    margin: 10px 0;
+}
+
+.privacy-policy dd p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #333;
+}
+
+.privacy-policy a {
+    color: #03CD64;
+}
+
+.privacy-policy ul {
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.privacy-policy ul li {
+    list-style: disc;
+}
+
+ol.pv-numeric-listing {
+    margin: 0 !important;
+}
+
+.pv-numeric-listing li {
+    margin-bottom: 1rem;
+}
+
+ol {
+    list-style-type: none;
+    counter-reset: item;
+    margin: 0;
+    padding: 0;
+}
+
+ol li {
+    display: table;
+    counter-increment: item;
+}
+
+ol li:before {
+    content: counters(item, ".") ". ";
+    display: table-cell;
+    padding-right: 0.6em;
+    font-size: 1rem;
+}
+
+ol li li:before {
+    content: counters(item, ".") " ";
+}
+
+
