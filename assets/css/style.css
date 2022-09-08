@@ -19,8 +19,8 @@
  * 05. KeywordsList
  * 06. Footer
  * 07. Model
- * 8. Add boxs
- * 9. Account-tab 
+ * 08. Add boxs
+ * 09. Account-tab 
  * 10. Login Header
  *     
  *     
@@ -322,6 +322,7 @@ span.load-more {
     font-size: 14px;
     line-height: 22px;
     font-weight: 400;
+    cursor: pointer;
 }
 
 ul.load-more-items {
@@ -761,7 +762,7 @@ button.pay-button {
     left: -15%;
 }
 
-/* 10.Login Header */
+/* 10. Login Header */
 header {
     background: #24b47e;
 }
