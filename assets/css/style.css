@@ -22,8 +22,9 @@
  * 08. Add boxs
  * 09. Account-tab 
  * 10. Login Header
- *     
- *     
+ * 11. Privacy Policy
+ * 12. Pricing
+ * 13. Create     
  *
  * 
  */
@@ -763,16 +764,8 @@ button.pay-button {
 }
 
 /* 10. Login Header */
-header {
-    background: #24b47e;
-}
-
 .navbar {
     padding: 0;
-}
-
-header .site-logo {
-    width: 150px;
 }
 
 .green-menu {
@@ -863,7 +856,7 @@ li ul li:hover a {
 }
 
 
-/*  */
+/* 11. Privacy Policy */
 .breadcrumb {
     margin: 0;
     color: #fff;
@@ -1021,6 +1014,9 @@ ol li:before {
 ol li li:before {
     content: counters(item, ".") " ";
 }
+
+
+/* 12. Pricing */
 
 .pricing {
     padding: 100px 0;
@@ -1230,6 +1226,8 @@ a.btn.w-count:hover {
     border-color: #50c398;
     color: #fff;
 }
+
+/* 13. Create */
 
 .article-tabs {
     min-height: 502px;
