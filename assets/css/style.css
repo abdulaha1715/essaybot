@@ -1288,19 +1288,19 @@ span.title {
     display: inline-block;
 }
 
-div#searchmodal .model-head {
+.tab-search-modal .model-head {
     background: #33373b;
     padding: 20px;
     color: #fff;
     margin-bottom: 30px;
 }
 
-div#searchmodal .model-head h3 {
+.tab-search-modal .model-head h3 {
     font-size: 18px;
     margin: 0;
 }
 
-div#searchmodal .modal-content {
+.tab-search-modal .modal-content {
     width: 100%;
     margin-left: 0%;
     padding: 0px;
@@ -1315,15 +1315,15 @@ div#searchmodal .modal-content {
     margin-bottom: 0;
 }
 
-div#searchmodal {}
+.tab-search-modal {}
 
-div#searchmodal button.btn-close {
+.tab-search-modal button.btn-close {
     top: 16px;
     right: 16px;
     background: none;
 }
 
-div#searchmodal button.btn-close i {
+.tab-search-modal button.btn-close i {
     color: #fff;
     font-size: 20px;
 }
@@ -1335,7 +1335,7 @@ div#searchmodal button.btn-close i {
     display: inline-block;
 }
 
-div#searchmodal button.close-text {
+.tab-search-modal button.close-text {
     background: #fff;
     position: unset;
     display: inline-block;
